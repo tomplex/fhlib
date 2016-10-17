@@ -1,5 +1,7 @@
 from fhlparsers import PlayerParser, ScoreboardParser, TeamParser, StandingsParser
-from config import DEFAULT_SEASON
+
+from fhlib.config import DEFAULT_SEASON
+
 
 class League:
     def __init__(self, league_id, season=DEFAULT_SEASON):
