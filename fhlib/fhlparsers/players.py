@@ -6,4 +6,3 @@ class PlayerParser:
 
     def __init__(self, html):
         self.parsed = BeautifulSoup(html, DEFAULT_HTML_PARSER)
-        
