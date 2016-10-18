@@ -27,12 +27,3 @@ class League:
     def teams(self):
         return [team for team in team_iterator(self.league_id, self.season)]
 
-    def __load_scoreboard(self):
-        pass
-
-    def __load_teams(self):
-        pass
-
-    def __load_standings(self):
-        pass
-
